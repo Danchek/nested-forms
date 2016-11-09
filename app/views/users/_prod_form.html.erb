@@ -1,0 +1,10 @@
+<%= form_tag(id: "product") do %>
+  <div class="field">
+    <%= label_tag(:name, 'Name') %><br />
+    <%= text_area_tag(:name) %>
+  </div>
+  <div class="field">
+    <%= label_tag(:part_number, 'Part number') %><br />
+    <%= text_area_tag(:part_number) %>
+  </div>
+<% end %>

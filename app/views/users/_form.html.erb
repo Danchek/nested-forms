@@ -19,6 +19,8 @@
     <%= f.label :email %><br />
     <%= f.text_field :email %>
   </div>
+    <%= render 'prod_form', :collection => @user.products %>
+    <%= render 'prod_form', :collection => @user.products %>
   <div class="actions">
     <%= f.submit %>
   </div>
